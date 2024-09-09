@@ -1,1 +1,48 @@
+# TradeRES-BC-Portal
 
+## Overview
+TradeRES-BC-Portal is a blockchain-based portal designed for energy trading. It leverages smart contracts and decentralized technology to enable secure and efficient trading between energy producers and consumers.
+
+## Features
+- **Smart Contracts:** Contains Solidity smart contracts for managing energy trades.
+- **Data Handling:** Includes scripts and configurations for handling energy trading data.
+- **Test Environment:** Features a testing framework for verifying the blockchain functionalities.
+
+## Technologies
+- **Python**
+- **Solidity**
+- **JavaScript**
+
+## Getting Started
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/bityoga/TradeRES-BC-Portal.git
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Configure environment variables:
+   - Set up the `.env` file for your blockchain environment settings.
+
+4. Compile contracts:
+   ```bash
+   truffle compile
+   ```
+
+5. Deploy contracts:
+   ```bash
+   truffle migrate
+   ```
+
+## Folder Structure
+- **contracts/** - Solidity smart contracts for energy trading.
+- **data/** - Scripts and configurations for data management.
+- **migrations/** - Deployment scripts for blockchain.
+- **tests/** - Contains testing files.
+
+## License
+This project is licensed under the MIT License.
+
+## Contact
+For questions or support, please contact the repository owner.
