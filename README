@@ -1,48 +1,53 @@
 # TradeRES-BC-Portal
 
 ## Overview
-TradeRES-BC-Portal is a blockchain-based portal designed for energy trading. It leverages smart contracts and decentralized technology to enable secure and efficient trading between energy producers and consumers.
+TradeRES-BC-Portal is a blockchain-based energy trading portal that facilitates secure and efficient transactions between energy producers and consumers using decentralized technology and smart contracts.
 
 ## Features
-- **Smart Contracts:** Contains Solidity smart contracts for managing energy trades.
-- **Data Handling:** Includes scripts and configurations for handling energy trading data.
-- **Test Environment:** Features a testing framework for verifying the blockchain functionalities.
+- **Smart Contracts**: Implements Solidity-based contracts for energy trades.
+- **Data Handling**: Manages energy trade data with scripts and configurations.
+- **Testing Framework**: Includes a test environment to validate blockchain functionalities.
 
 ## Technologies
-- **Python**
-- **Solidity**
-- **JavaScript**
+- Python
+- Solidity
+- JavaScript
 
 ## Getting Started
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/bityoga/TradeRES-BC-Portal.git
-   ```
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Configure environment variables:
-   - Set up the `.env` file for your blockchain environment settings.
 
-4. Compile contracts:
-   ```bash
-   truffle compile
-   ```
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/bityoga/TradeRES-BC-Portal.git
+    ```
 
-5. Deploy contracts:
-   ```bash
-   truffle migrate
-   ```
+2. **Install dependencies**:
+    ```bash
+    npm install
+    ```
+
+3. **Configure environment variables**:
+    Create and set up a `.env` file for blockchain settings.
+
+4. **Compile smart contracts**:
+    ```bash
+    truffle compile
+    ```
+
+5. **Deploy contracts**:
+    ```bash
+    truffle migrate
+    ```
 
 ## Folder Structure
-- **contracts/** - Solidity smart contracts for energy trading.
-- **data/** - Scripts and configurations for data management.
-- **migrations/** - Deployment scripts for blockchain.
-- **tests/** - Contains testing files.
+
+- **/contracts**: Solidity contracts for energy trading.
+- **/data**: Data management scripts and configurations.
+- **/migrations**: Deployment scripts for blockchain.
+- **/tests**: Contains test scripts for verifying functionalities.
 
 ## License
 This project is licensed under the MIT License.
 
 ## Contact
-For questions or support, please contact the repository owner.
+For more information or support, please contact the repository maintainer.
+
